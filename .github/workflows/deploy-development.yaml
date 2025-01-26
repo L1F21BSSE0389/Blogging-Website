@@ -13,7 +13,7 @@ jobs:
 
       - name: build using parcel
         run: |
-          npx parcel build "./src/home.html" --dist-dir "./dist" --public-url "./"
+          npx parcel build "./src/index.html" --dist-dir "./dist" --public-url "./"
 
       - name: saving artifacts on cloud
         uses: actions/upload-pages-artifact@v3
